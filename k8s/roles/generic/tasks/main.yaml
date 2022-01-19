@@ -1,0 +1,8 @@
+---
+- name: "create folder"
+  file:
+    path: /dockerdata-nfs
+    state: directory
+    owner: nobody
+    group: nogroup
+
